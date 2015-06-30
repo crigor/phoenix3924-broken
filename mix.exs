@@ -30,6 +30,7 @@ defmodule HelloPhoenix.Mixfile do
   # Type `mix help deps` for examples and options
   defp deps do
     [{:phoenix, "~> 0.14"},
+     {:ecto, github: "elixir-lang/ecto", override: true},
      {:phoenix_ecto, "~> 0.5"},
      {:postgrex, ">= 0.0.0"},
      {:phoenix_html, "~> 1.1"},
